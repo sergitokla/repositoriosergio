@@ -1,0 +1,34 @@
+# Archivos del sistema operativo
+.DS_Store            # Archivos de metadatos en MacOS
+Thumbs.db            # Archivos de caché en Windows
+
+# Archivos de configuración de editores
+.vscode/             # Configuración de Visual Studio Code
+.idea/               # Configuración de JetBrains
+
+# Dependencias de Node.js
+node_modules/        # Directorio de dependencias de npm
+bower_components/    # Directorio de dependencias de Bower
+
+# Archivos de construcción
+dist/                # Archivos generados por el proceso de build
+build/               # Archivos generados por herramientas de construcción
+
+# Archivos de configuración de entorno
+.env                 # Archivos de configuración de entorno
+.env.local           # Archivos locales de configuración de entorno
+.env.development     # Archivos de configuración para desarrollo
+
+# Archivos temporales
+*.log                # Archivos de logs
+*.tmp                # Archivos temporales
+
+# Archivos de proyecto de editor de texto
+*.sublime-workspace  # Archivos de espacio de trabajo de Sublime Text
+*.sublime-project    # Archivos de proyecto de Sublime Text
+
+# Otros archivos específicos  
+*.bak                # Archivos de copia de seguridad
+*.swp                # Archivos temporales de editores como Vim
+*.pyc                # Archivos compilados de Python
+*.gem                # Gemas de Ruby
